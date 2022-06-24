@@ -1,0 +1,71 @@
+.footer{
+    padding: 0 20px;
+    .header-logo{
+        width: 107px;
+        height: 30px;
+    }
+    .socials {
+        display: flex;
+        justify-content: flex-start;
+        .link{
+            margin-right: 40.65px;
+        }
+    }
+    &-row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &-logo{
+        font-size: 15px;
+        line-height: 22.5px;
+        max-width: 288px;
+        color: $gray;
+        margin-bottom: 20px;
+        &__text{
+            margin-top: 20px;
+        }
+    }
+    &-about{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        
+    }
+    &-company{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        
+    }
+    &-contact{
+        display: flex;
+        flex-direction: column;
+    }
+    &-title{
+        margin-bottom: 20px;
+        font-weight: 700;
+        opacity: 1;
+        color: #fff;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    &-link{
+        color: $gray;
+        font-size: 15px;
+        line-height: 22.5px;
+        margin-bottom: 20px;
+    }
+    &-rights{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        &__span{
+            font-weight: 700;
+            color: #fff;
+        }
+    }
+}

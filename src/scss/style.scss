@@ -1,0 +1,26 @@
+@import "fonts.scss";
+@import "var.scss";
+@import "searchBox.scss";
+@import "general.scss";
+@import "header.scss";
+@import "home.scss";
+@import "about.scss";
+@import "collections.scss";
+@import "featured.scss";
+@import "creator.scss";
+@import "animation.scss";
+@import "faq.scss";
+@import "collect.scss";
+@import "footer.scss";
+@import "mediaQueries.scss";
+
+// section{
+//     position: relative;
+//     transform: translateY(150px);
+//     opacity: 0;
+//     transition: all 1s ease;
+//     .active{
+//         transform: translateY(0px);
+//         opacity: 1;
+//     }
+// }

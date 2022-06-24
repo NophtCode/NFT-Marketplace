@@ -1,0 +1,47 @@
+.header{
+    position: fixed;
+    background: $glasscolor;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    transition: .4s;
+    z-index: 99;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-list{
+        display: flex;
+    }
+    &-menu{
+        display: flex;
+        align-items: center;
+        &__link{
+            font-size: 20px;
+            line-height: 30px;
+            margin-right: 40px;
+            color: #fff;
+            transition: .2s;
+            &:hover{
+                color: $gray;
+                transform: scale(1.1);
+            }
+        }
+        &__wallet{
+            display: none;
+            transition: .4s;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            
+        }
+    }
+}
+.show-menu{
+    left: 0% !important;
+}
+

@@ -1,0 +1,103 @@
+.collection{
+    &-menu{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       justify-content: center;
+       margin-bottom: 20px;
+       &__btn{
+           margin: 0 7.5px;
+           padding: 5px;
+           max-width: 288px;
+           border: none;
+           cursor: pointer;
+           border-radius: 10px;
+           color: #fff;
+           font-size: 20px;
+           background-color: $glasscolor;
+           transition: .4s linear;
+           &:focus{
+               background: $purple;
+           }
+       }
+    }
+    &-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+}
+.card{
+    max-width: 380px;
+    padding: 26px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    transition: .4s;
+    margin: 0 7.5px 15px !important;
+    margin-bottom: 15px;
+    &-img{
+            margin-bottom: 20px;
+            max-width: 337px;
+            width: 100%;
+            max-height: 380px;
+    }
+    &:hover{
+        background: $gray;
+        transform: scale(1.1);
+    }
+    &-text{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 23px;
+    }
+    &-person{
+        color: #fff;
+        max-width: 160px;
+        width: 100%;
+        text-align: left;
+        &__name{
+            font-size: 20px;
+            color: $gray;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+        &__yellow{
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+    &-bid{
+        text-align: right;
+        &__current{
+            font-weight: 500;
+            color: $gray;
+            font-size: 15px;
+            line-height: 22.5px;
+        }
+        &__price{
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            color: #fff;
+        }
+    }
+    &-btn{    
+        border: none; 
+        cursor: pointer;
+        max-width: 337px;
+        width: 100%;
+        display: block;
+        padding: 10px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 10px;
+        background: $purple;
+        transition: .2s linear;
+        &:hover{
+            background: $gray;
+            box-shadow: 8px 7px 25px 21px rgba(34, 60, 80, 0.2);
+        }
+    }
+}
